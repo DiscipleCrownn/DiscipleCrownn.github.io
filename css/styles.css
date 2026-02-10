@@ -1,4 +1,4 @@
-   /* Project Card Styles */
+/* Project Card Styles */
         .project {
             margin-bottom: 60px;
             padding-bottom: 60px;
@@ -280,6 +280,40 @@
             background: #ffffff;
         }
 
+        /* ===== VIDEO BACKGROUND STYLES ===== */
+        .video-background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .video-background video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            object-fit: cover;
+        }
+
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.4);
+            z-index: 1;
+        }
+        /* ===== END VIDEO BACKGROUND STYLES ===== */
+
         .grid-background {
             position: absolute;
             top: 0;
@@ -287,10 +321,11 @@
             width: 100%;
             height: 100%;
             background-image:
-                linear-gradient(rgba(0, 0, 0, 0.10) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 0, 0, 0.10) 1px, transparent 1px);
+                linear-gradient(rgba(0, 0, 0, 0.15) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 0, 0, 0.15) 1px, transparent 1px);
             background-size: 50px 50px;
             animation: gridMove 20s linear infinite;
+            z-index: 2;
         }
 
         @keyframes gridMove {
@@ -307,7 +342,7 @@
             max-width: 1400px;
             width: 100%;
             position: relative;
-            z-index: 1;
+            z-index: 3;
         }
 
         .hero-text h1 {
