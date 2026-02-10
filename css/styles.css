@@ -982,6 +982,41 @@
             }
         }
 
+        /* Profile Image Styles - Add this in the About Section */
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-image {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #000000;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-image img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Add this to your existing @media (max-width: 968px) section */
+@media (max-width: 968px) {
+    .profile-image {
+        max-width: 200px;
+        margin-bottom: 1rem;
+    }
+}
+
         /* Smooth Scroll */
         html {
             scroll-behavior: smooth;
