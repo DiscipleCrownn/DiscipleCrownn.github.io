@@ -4,17 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sphamandla Radebe - Embedded Systems Engineer</title>
+    <title>Sphamandla Radebe Embedded Systems Engineer</title>
     <link
         href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Syne:wght@400;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- Font Awesome for icons -->
-    <!-- please link the main.js file -->
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="css/styles.css">
-
 </head>
 
 <body>
@@ -41,7 +36,6 @@
 
     <!-- Hero Section -->
     <section id="home">
-        <!-- Video Background -->
         <div class="video-background">
             <video autoplay muted loop playsinline>
                 <source src="pics/media/vid1.mp4" type="video/mp4">
@@ -53,9 +47,8 @@
         <div class="hero-content">
             <div class="hero-text">
                 <h2 class="section-title">Sphamandla Radebe</h2>
-
                 <p style="color: #000000;">
-                    Electrical Engineering graduate pursuing MSc in Embedded Systems. Specializing in circuit design,
+                    Electrical Engineering graduate pursuing MSc in Embedded Systems. Specialising in circuit design,
                     signal processing, and intelligent system development. Available immediately for entry-level
                     embedded systems or electronics engineering positions.
                 </p>
@@ -81,296 +74,200 @@
         <!-- All Projects Tab -->
         <div class="tab-content active" id="All-projects">
             <div class="container">
-                <!-- Project 1: Start Up Website -->
+
+                <!-- Project: Single-Channel EMG -->
+                <div class="project">
+                    <h2 class="project-title">Single-Channel EMG Data Acquisition System for Prosthetic Control</h2>
+                    <div class="project-outcomes">
+                        <h3>Project Outcomes:</h3>
+                        <div class="outcome-highlight">
+                            <p>Designed and implemented a full end-to-end data acquisition pipeline covering electromyographic signal capture, multi-stage noise filtering, and signal conditioning to produce clean, structured output suitable for downstream machine learning classification in prosthetic limb control applications. The system achieved a signal capture accuracy of 95.33% with a measured error of only 4.67%, validating the reliability of the acquisition chain under real-world noise conditions. Engineered at an optimised cost of R2,548.21, the design demonstrates that high-fidelity biomedical data acquisition can be achieved in cost-constrained environments a critical consideration for prosthetics in the South African context. The hardware integrates analog instrumentation amplifiers, active bandpass filters, and an ADC interface with a microcontroller for digital signal output, forming a complete sensor-to-data pipeline. This project bridges hardware engineering and machine learning, contributing directly to the growing field of intelligent assistive technologies and rehabilitation engineering.</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/DiscipleCrownn" class="project-link" target="_blank">Documentation and code →</a>
+                </div>
+
+                <!-- Project 1: ArkLegacy -->
                 <div class="project">
                     <h2 class="project-title">| ArkLegacy | Start-Up Website</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/Ark/pic1.png" alt="Ark 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Ark/pic2.png" alt="Ark 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Ark/pic3.png" alt="Ark 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/Ark/pic1.png" alt="Ark 1"></div>
+                        <div class="img-wrapper"><img src="pics/Ark/pic2.png" alt="Ark 2"></div>
+                        <div class="img-wrapper"><img src="pics/Ark/pic3.png" alt="Ark 3"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes <span style="color: #ff0000;">(on-going)</span></h3>
                         <div class="outcome-highlight">
-                            <p>Developing a comprehensive IoT analytics platform for mining and agricultural operations
-                                that transforms real-time sensor data into actionable insights. The solution combines
-                                hardware sensor integration with advanced data visualization to enable predictive
-                                maintenance and environmental monitoring.</p>
+                            <p>Currently in development, ArkLegacy will be a comprehensive IoT analytics platform targeting mining and agricultural operations, set to transform real-time sensor data streams into structured, actionable insights for operational decision-making. The platform will combine hardware sensor integration with advanced data visualisation dashboards, enabling predictive maintenance scheduling and continuous environmental condition monitoring once deployed. The backend will process time-series data through analytics pipelines built on a Python and JavaScript stack, drawing on the data engineering principles being developed through MSc research into embedded systems and web-integrated analytics. On the frontend, the goal is to deliver an intuitive interface designed specifically for field operators, presenting complex telemetry in interpretable visual formats that require no deep technical knowledge to use. Ultimately, this project will serve as a direct application of the dissertation research focus, demonstrating how embedded systems and cloud-based analytics pipelines can support data-driven decision-making in resource-intensive industries at scale.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/ArkLegacy-Startup-Website" class="project-link"
-                        target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/ArkLegacy-Startup-Website" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
-                <!--Royal Priesthood project-->
+
+                <!-- Royal Priesthood -->
                 <div class="project">
                     <h2 class="project-title">| Royal Priesthood | Clothing Website</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/Royal Priesthood/pic1.png" alt="Royal 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Royal Priesthood/pic2.png" alt="Royal 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Royal Priesthood/pic3.png" alt="Royal 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/Royal Priesthood/pic1.png" alt="Royal 1"></div>
+                        <div class="img-wrapper"><img src="pics/Royal Priesthood/pic2.png" alt="Royal 2"></div>
+                        <div class="img-wrapper"><img src="pics/Royal Priesthood/pic3.png" alt="Royal 3"></div>
                     </div>
                     <div class="project-outcomes">
-
                         <div class="outcome-highlight">
-                            <p>A complete full-stack e-commerce website built for Royal Priesthood, a faith-inspired
-                                premium streetwear brand. Tech Stack
-                                Frontend
-                                HTML5 · CSS3 · Vanilla JavaScript · Google Fonts (Bebas Neue, Cormorant Garamond)
-                                Backend
-                                Node.js · Express.js · RESTful API
-                                Database & Security
-                                SQLite · Password Encryption (bcrypt)
-                                Architecture
-                                Client-Server · MVC-style separation of concerns · Modular JavaScript (products.js ·
-                                cart.js · auth.js · main.js)</p>
+                            <p>A complete full-stack e-commerce platform built for Royal Priesthood, a faith-inspired premium streetwear brand, developed from the ground up with a focus on performance, security, and maintainable architecture. The frontend is crafted using HTML5, CSS3, and Vanilla JavaScript with carefully selected Google Fonts (Bebas Neue, Cormorant Garamond) to reinforce the brand's premium identity, while the backend is powered by Node.js and Express.js through a RESTful API architecture. User authentication is secured with bcrypt password encryption and session management, and all product and customer data is persisted in a relational SQL database with structured query optimisation skills directly developed through my Teaching Assistant role where I facilitated data retrieval and SQL query optimisation for 100+ students. The codebase follows an MVC-style separation of concerns, with modular JavaScript files (products.js, cart.js, auth.js, main.js) ensuring scalability and straightforward onboarding for collabourating developers. This project reflects my ability to deliver commercial-grade software solutions for real clients, bridging engineering rigour with practical software development.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/royal-priesthood-shop" class="project-link"
-                        target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/royal-priesthood-shop" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
-                <!-- Project 2: Load Profile App -->
+                <!-- Load Profile App -->
                 <div class="project">
                     <h2 class="project-title">Load Profile App | Catalogue Method</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/Design/pic1.png" alt="PV System Design 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Design/pic2.png" alt="PV System Design 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Design/pic3.png" alt="PV System Design 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/Design/pic1.png" alt="PV System Design 1"></div>
+                        <div class="img-wrapper"><img src="pics/Design/pic2.png" alt="PV System Design 2"></div>
+                        <div class="img-wrapper"><img src="pics/Design/pic3.png" alt="PV System Design 3"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>A Streamlit application for building residential load profiles using the Catalogue
-                                Method. Validation against measured household loads showed power estimation accuracy
-                                within 5–8% of readings from a Fluke power quality meter.</p>
+                            <p>A Python-based Streamlit web application that automates residential electrical load profile generation using the Catalogue Method a systematic approach to estimating household energy demand by cataloguing appliance types, usage patterns, and rated power values. The application allows users to interactively define household appliance inventories and operating schedules, dynamically computing and visualising 24-hour power demand curves. Validation was performed against physically measured household loads using a Fluke power quality meter, achieving power estimation accuracy within 5–8% of real readings a commercially acceptable margin for residential solar PV sizing and demand forecasting. Built using Pandas and Matplotlib for data handling and visualisation, the tool reflects my broader expertise in data-driven engineering workflows where Python analytics pipelines translate raw measurements into actionable design insights. This project has direct applications in South Africa's renewable energy transition, providing accessible tooling for engineers and consultants designing off-grid and grid-tied PV systems for residential clients.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/MelvinRadebe/Design-Load-Profile-Web-Application" class="project-link"
-                        target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/MelvinRadebe/Design-Load-Profile-Web-Application" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
-                <!-- Project 3: Stroke Rehabilitation System -->
+                <!-- Stroke Rehabilitation -->
                 <div class="project">
                     <h2 class="project-title">Hand Movement Distance Measurement System for Stroke Rehabilitation</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/stroke rehab/pic1.png" alt="Stroke Rehab System 1">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/stroke rehab/pic1.png" alt="Stroke Rehab System 1"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>Developed a precise measurement system achieving 95% accuracy with cumulative measurement
-                                error of 2.92% ± 0.0489%. Reduced system cost to R420, making it accessible for
-                                resource-limited rehabilitation settings.</p>
+                            <p>Developed a precision hand movement measurement system for post-stroke rehabilitation, enabling physiotherapists and patients to objectively track motor recovery progress through quantifiable distance and motion metrics. The system achieved 95% measurement accuracy with a cumulative measurement error of only 2.92% ± 0.0489%, demonstrating the reliability necessary for clinical-grade rehabilitation feedback in real-world physiotherapy settings. A key design constraint was affordability: the complete system was fabricated at a cost of R420, making it viable for deployment in resource-limited public healthcare and community rehabilitation environments where expensive commercial motion capture systems are inaccessible. The hardware architecture integrates time-of-flight and inertial sensors with embedded signal processing on a microcontroller platform, with firmware written in C to achieve the low-latency, high-accuracy measurement pipeline required. This project exemplifies the intersection of embedded systems engineering and healthcare impact, demonstrating how thoughtful hardware design can directly improve quality of life outcomes for stroke survivors in underserved communities.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/Hand-Movement-Distance-Measurement-System-for-Stroke-Rehabilitation"
-                        class="project-link" target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/Hand-Movement-Distance-Measurement-System-for-Stroke-Rehabilitation" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
-                <!-- Project 4: Yagi-Uda Antenna -->
+                <!-- Yagi-Uda Antenna -->
                 <div class="project">
                     <h2 class="project-title">High-Gain 2.4 GHz Yagi-Uda Antenna for Wi-Fi Range Extension</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/hf/pic1.png" alt="Yagi Antenna Design 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/hf/pic2.png" alt="Yagi Antenna Design 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/hf/pic3.png" alt="Yagi Antenna Design 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/hf/pic1.png" alt="Yagi Antenna Design 1"></div>
+                        <div class="img-wrapper"><img src="pics/hf/pic2.png" alt="Yagi Antenna Design 2"></div>
+                        <div class="img-wrapper"><img src="pics/hf/pic3.png" alt="Yagi Antenna Design 3"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>Fabricated a directional antenna achieving 9 dBi realized gain compared to 2 dBi
-                                omnidirectional router antenna, representing a 7 dB signal strength improvement.</p>
+                            <p>Designed, simulated, and physically fabricated a directional Yagi-Uda antenna optimised for operation at 2.4 GHz, targeting Wi-Fi range extension applications in environments where standard omnidirectional routers deliver insufficient coverage. The antenna achieved a realised gain of 9 dBi, compared to the 2 dBi gain of a standard omnidirectional router antenna representing a 7 dB improvement in signal strength and a significant increase in effective communication range in the beam direction. The design process was carried out using 4-NEC2 electromagnetic simulation software to iteratively optimise element spacing, driven element length, and reflector geometry before physical fabrication, ensuring simulated performance closely matched measured results. Antenna construction used precision-cut aluminium elements mounted on a non-conductive boom, with impedance matching designed to minimise return loss at the feed point for maximum power transfer. This project reflects hands-on application of HF Techniques coursework and demonstrates the complete antenna engineering workflow from theoretical design and electromagnetic simulation through to physical fabrication, measurement, and performance validation.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/High-Gain-2.4-GHz-Yagi-Uda-Directional-Antenna"
-                        class="project-link" target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/High-Gain-2.4-GHz-Yagi-Uda-Directional-Antenna" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
-                <!-- Project 5: Water Heater DSM Analysis -->
+                <!-- Water Heater DSM -->
                 <div class="project">
-                    <h2 class="project-title">Demand-Side Management Analysis Program: Instantaneous vs Electric Water
-                        Heaters</h2>
+                    <h2 class="project-title">Demand-Side Management Analysis Program: Instantaneous vs Electric Water Heaters</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/investigation/pic1.png" alt="Water Heater Analysis 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/investigation/pic2.png" alt="Water Heater Analysis 2">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/investigation/pic1.png" alt="Water Heater Analysis 1"></div>
+                        <div class="img-wrapper"><img src="pics/investigation/pic2.png" alt="Water Heater Analysis 2"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>National-scale simulation across 5.4 million installations projected 470 MW peak demand
-                                reduction (equivalent to half a stage of load shedding) and 32% daily energy savings
-                                (35.16 GWh/day).</p>
+                            <p>Developed a Python-based GUI simulation program to model and compare the national-scale demand-side management (DSM) impact of replacing conventional electric storage water heaters with instantaneous (tankless) alternatives across South Africa's residential sector. The simulation modelled consumption behaviour across 5.4 million installations using statistical load profiles derived from real household usage data, computing aggregate demand curves and energy consumption totals under both heater configurations. Results projected a peak demand reduction of 470 MW equivalent to half a stage of Eskom load shedding alongside 32% daily energy savings amounting to 35.16 GWh per day, quantifying the national grid relief achievable through targeted appliance-level DSM interventions. Built using Python with Pandas, NumPy, and Matplotlib, the program implements a data pipeline from input parameters through statistical modelling to visualised output, making the analysis accessible and reproducible for energy policy stakeholders. This project directly addresses South Africa's ongoing energy crisis by providing evidence-based, data-driven analysis to inform government and utility-level decisions around residential appliance standards and incentive programmes.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/Demand-Side-Management-Analysis-Program-GUI"
-                        class="project-link" target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/Demand-Side-Management-Analysis-Program-GUI" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
-                <!-- Project 6: Battery Theft Prevention System -->
+                <!-- Battery Theft Prevention -->
                 <div class="project">
                     <h2 class="project-title">Telecommunications Cabinet Smart Battery Theft Prevention System</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/predictive battery theft prevention/pic1.png"
-                                alt="Battery Theft Prevention 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/predictive battery theft prevention/pic2.png"
-                                alt="Battery Theft Prevention 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/predictive battery theft prevention/pic3.png"
-                                alt="Battery Theft Prevention 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/predictive battery theft prevention/pic1.png" alt="Battery Theft Prevention 1"></div>
+                        <div class="img-wrapper"><img src="pics/predictive battery theft prevention/pic2.png" alt="Battery Theft Prevention 2"></div>
+                        <div class="img-wrapper"><img src="pics/predictive battery theft prevention/pic3.png" alt="Battery Theft Prevention 3"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>Fabricated a predictive battery theft prevention system achieving 95% accuracy in
-                                distinguishing intruders from authorised personnel with response time under 5 seconds.
-                            </p>
+                            <p>Fabricated an intelligent embedded security system for telecommunications infrastructure cabinets, addressing the widespread theft of backup batteries from cell towers and telecoms sites a major operational and financial challenge for South African network operators. Developed during vacation work at Rain South Africa, the system implements a predictive classification model that achieved 95% accuracy in distinguishing between authorised maintenance personnel and intruders, with a detection and alert response time of under 5 seconds. The machine learning classification model was trained on sensor fusion data combining PIR motion detection, vibration sensing, and access pattern analysis, enabling the system to differentiate between routine authorised access and suspicious intrusion behaviour with high confidence. Hardware integration involved embedded firmware development in C, sensor interfacing, and a wireless alerting module that pushes real-time notifications to a remote monitoring dashboard, enabling operators to respond to intrusion events immediately. This project also involved cross-functional collabouration to produce comprehensive technical documentation and project specifications work that directly contributed to reduced engineer onboarding time, as acknowledged during the Rain South Africa vacation programme.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/Telecommunications-Cabinet-Smart-Battery-Theft-Prevention-System"
-                        class="project-link" target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/Telecommunications-Cabinet-Smart-Battery-Theft-Prevention-System" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
+
             </div>
         </div>
 
         <!-- Software Applications Tab -->
         <div class="tab-content" id="applications">
             <div class="container">
-                <!-- Duplicate of software projects from All Projects tab -->
                 <div class="project">
                     <h2 class="project-title">| ArkLegacy | Start-Up Website</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/Ark/pic1.png" alt="Ark 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Ark/pic2.png" alt="Ark 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Ark/pic3.png" alt="Ark 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/Ark/pic1.png" alt="Ark 1"></div>
+                        <div class="img-wrapper"><img src="pics/Ark/pic2.png" alt="Ark 2"></div>
+                        <div class="img-wrapper"><img src="pics/Ark/pic3.png" alt="Ark 3"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes <span style="color: #ff0000;">(on-going)</span></h3>
                         <div class="outcome-highlight">
-                            <p>Developing a comprehensive IoT analytics platform for mining and agricultural operations.
-                            </p>
+                            <p>Currently in development, ArkLegacy will be a comprehensive IoT analytics platform targeting mining and agricultural operations, set to transform real-time sensor data streams into structured, actionable insights for operational decision-making. The platform will combine hardware sensor integration with advanced data visualisation dashboards, enabling predictive maintenance scheduling and continuous environmental condition monitoring once deployed. The backend will process time-series data through analytics pipelines built on a Python and JavaScript stack, drawing on the data engineering principles being developed through MSc research into embedded systems and web-integrated analytics. On the frontend, the goal is to deliver an intuitive interface designed specifically for field operators, presenting complex telemetry in interpretable visual formats that require no deep technical knowledge to use. Ultimately, this project will serve as a direct application of the dissertation research focus, demonstrating how embedded systems and cloud-based analytics pipelines can support data-driven decision-making in resource-intensive industries at scale.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/ArkLegacy-Startup-Website" class="project-link"
-                        target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/ArkLegacy-Startup-Website" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
-                <!--Royal Priesthood project-->
                 <div class="project">
                     <h2 class="project-title">| Royal Priesthood | Clothing Website</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/Royal Priesthood/pic1.png" alt="Royal 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Royal Priesthood/pic2.png" alt="Royal 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Royal Priesthood/pic3.png" alt="Royal 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/Royal Priesthood/pic1.png" alt="Royal 1"></div>
+                        <div class="img-wrapper"><img src="pics/Royal Priesthood/pic2.png" alt="Royal 2"></div>
+                        <div class="img-wrapper"><img src="pics/Royal Priesthood/pic3.png" alt="Royal 3"></div>
                     </div>
                     <div class="project-outcomes">
-
                         <div class="outcome-highlight">
-                            <p>A complete full-stack e-commerce website built for Royal Priesthood, a faith-inspired
-                                premium streetwear brand. Tech Stack
-                                Frontend
-                                HTML5 · CSS3 · Vanilla JavaScript · Google Fonts (Bebas Neue, Cormorant Garamond)
-                                Backend
-                                Node.js · Express.js · RESTful API
-                                Database & Security
-                                SQLite · Password Encryption (bcrypt)
-                                Architecture
-                                Client-Server · MVC-style separation of concerns · Modular JavaScript (products.js ·
-                                cart.js · auth.js · main.js)</p>
+                            <p>A complete full-stack e-commerce platform built for Royal Priesthood, a faith-inspired premium streetwear brand, developed from the ground up with a focus on performance, security, and maintainable architecture. The frontend is crafted using HTML5, CSS3, and Vanilla JavaScript with carefully selected Google Fonts to reinforce the brand's premium identity, while the backend is powered by Node.js and Express.js through a RESTful API. User authentication is secured with bcrypt password encryption and session management, with all data persisted in a relational MySQL database. The codebase follows an MVC-style separation of concerns, with modular JavaScript files ensuring scalability and straightforward onboarding for collabourating developers. This project reflects my ability to deliver commercial-grade software solutions for real clients, bridging engineering rigour with practical full-stack development.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/royal-priesthood-shop" class="project-link"
-                        target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/royal-priesthood-shop" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
-                <!--load profile application-->
+
                 <div class="project">
                     <h2 class="project-title">Load Profile App | Catalogue Method</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/Design/pic1.png" alt="PV System Design 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Design/pic2.png" alt="PV System Design 2">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/Design/pic3.png" alt="PV System Design 3">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/Design/pic1.png" alt="PV System Design 1"></div>
+                        <div class="img-wrapper"><img src="pics/Design/pic2.png" alt="PV System Design 2"></div>
+                        <div class="img-wrapper"><img src="pics/Design/pic3.png" alt="PV System Design 3"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>A Streamlit application for building residential load profiles with 5–8% accuracy.</p>
+                            <p>A Python-based Streamlit web application that automates residential electrical load profile generation using the Catalogue Method, validated against Fluke power quality meter readings with 5–8% accuracy. Built using Pandas and Matplotlib for data handling and visualisation, the tool enables solar PV sizing and demand forecasting for engineers and consultants. Direct applications include South Africa's renewable energy transition, providing accessible tooling for off-grid and grid-tied residential PV system design.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/MelvinRadebe/Design-Load-Profile-Web-Application" class="project-link"
-                        target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/MelvinRadebe/Design-Load-Profile-Web-Application" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
 
                 <div class="project">
                     <h2 class="project-title">Demand-Side Management Analysis Program</h2>
                     <div class="project-images">
-                        <div class="img-wrapper">
-                            <img src="pics/investigation/pic1.png" alt="Water Heater Analysis 1">
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="pics/investigation/pic2.png" alt="Water Heater Analysis 2">
-                        </div>
+                        <div class="img-wrapper"><img src="pics/investigation/pic1.png" alt="Water Heater Analysis 1"></div>
+                        <div class="img-wrapper"><img src="pics/investigation/pic2.png" alt="Water Heater Analysis 2"></div>
                     </div>
                     <div class="project-outcomes">
                         <h3>Project Outcomes:</h3>
                         <div class="outcome-highlight">
-                            <p>National-scale simulation across 5.4 million installations projected 470 MW peak demand
-                                reduction.</p>
+                            <p>National-scale simulation across 5.4 million installations projected a 470 MW peak demand reduction and 32% daily energy savings (35.16 GWh/day), providing evidence-based analysis to inform South African energy policy. The Python GUI application implements a data pipeline from statistical load modelling through to visualised output using Pandas, NumPy, and Matplotlib.</p>
                         </div>
                     </div>
-                    <a href="https://github.com/DiscipleCrownn/Demand-Side-Management-Analysis-Program-GUI"
-                        class="project-link" target="_blank">Documentation and code →</a>
+                    <a href="https://github.com/DiscipleCrownn/Demand-Side-Management-Analysis-Program-GUI" class="project-link" target="_blank">Documentation and code →</a>
                 </div>
             </div>
         </div>
@@ -378,66 +275,60 @@
         <!-- Hardware Projects Tab -->
         <div class="tab-content" id="hardware">
             <div class="project">
+                <h2 class="project-title">Single-Channel EMG Data Acquisition System for Prosthetic Control</h2>
+                <div class="project-outcomes">
+                    <h3>Project Outcomes:</h3>
+                    <div class="outcome-highlight">
+                        <p>Designed a full EMG data acquisition pipeline covering signal capture, noise filtering, and conditioning at an optimised cost of R2,548.21, achieving 95.33% signal capture accuracy (4.67% error). The system bridges hardware engineering and machine learning, producing structured output suitable for downstream prosthetic limb classification models.</p>
+                    </div>
+                </div>
+                <a href="https://github.com/DiscipleCrownn" class="project-link" target="_blank">Documentation and code →</a>
+            </div>
+
+            <div class="project">
                 <h2 class="project-title">Hand Movement Distance Measurement System for Stroke Rehabilitation</h2>
                 <div class="project-images">
-                    <div class="img-wrapper">
-                        <img src="pics/stroke rehab/pic1.png" alt="Stroke Rehab System 1">
-                    </div>
+                    <div class="img-wrapper"><img src="pics/stroke rehab/pic1.png" alt="Stroke Rehab System 1"></div>
                 </div>
                 <div class="project-outcomes">
                     <h3>Project Outcomes:</h3>
                     <div class="outcome-highlight">
-                        <p>Achieved 95% accuracy with cumulative measurement error of 2.92% ± 0.0489%.</p>
+                        <p>Achieved 95% measurement accuracy (cumulative error 2.92% ± 0.0489%) in a clinical-grade rehabilitation feedback system fabricated at R420 accessible for resource-limited healthcare settings. Embedded firmware in C drives time-of-flight and inertial sensors through a low-latency signal processing pipeline on a microcontroller platform.</p>
                     </div>
                 </div>
-                <a href="https://github.com/DiscipleCrownn/Hand-Movement-Distance-Measurement-System-for-Stroke-Rehabilitation"
-                    class="project-link" target="_blank">Documentation and code →</a>
+                <a href="https://github.com/DiscipleCrownn/Hand-Movement-Distance-Measurement-System-for-Stroke-Rehabilitation" class="project-link" target="_blank">Documentation and code →</a>
             </div>
 
             <div class="project">
                 <h2 class="project-title">High-Gain 2.4 GHz Yagi-Uda Antenna</h2>
                 <div class="project-images">
-                    <div class="img-wrapper">
-                        <img src="pics/hf/pic1.png" alt="Yagi Antenna Design 1">
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="pics/hf/pic2.png" alt="Yagi Antenna Design 2">
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="pics/hf/pic3.png" alt="Yagi Antenna Design 3">
-                    </div>
+                    <div class="img-wrapper"><img src="pics/hf/pic1.png" alt="Yagi Antenna Design 1"></div>
+                    <div class="img-wrapper"><img src="pics/hf/pic2.png" alt="Yagi Antenna Design 2"></div>
+                    <div class="img-wrapper"><img src="pics/hf/pic3.png" alt="Yagi Antenna Design 3"></div>
                 </div>
                 <div class="project-outcomes">
                     <h3>Project Outcomes:</h3>
                     <div class="outcome-highlight">
-                        <p>Fabricated a directional antenna achieving 9 dBi realized gain.</p>
+                        <p>Fabricated a directional antenna achieving 9 dBi realised gain a 7 dB improvement over a standard omnidirectional router. Designed and iteratively optimised using 4-NEC2 electromagnetic simulation before physical fabrication with precision-cut aluminium elements and impedance-matched feed for maximum power transfer.</p>
                     </div>
                 </div>
-                <a href="https://github.com/DiscipleCrownn/High-Gain-2.4-GHz-Yagi-Uda-Directional-Antenna"
-                    class="project-link" target="_blank">Documentation and code →</a>
+                <a href="https://github.com/DiscipleCrownn/High-Gain-2.4-GHz-Yagi-Uda-Directional-Antenna" class="project-link" target="_blank">Documentation and code →</a>
             </div>
 
             <div class="project">
                 <h2 class="project-title">Smart Battery Theft Prevention System</h2>
                 <div class="project-images">
-                    <div class="img-wrapper">
-                        <img src="pics/predictive battery theft prevention/pic1.png" alt="Battery Theft Prevention 1">
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="pics/predictive battery theft prevention/pic2.png" alt="Battery Theft Prevention 2">
-                    </div>
-                    <div class="img-wrapper">
-                        <img src="pics/predictive battery theft prevention/pic3.png" alt="Battery Theft Prevention 3">
-                    </div>
+                    <div class="img-wrapper"><img src="pics/predictive battery theft prevention/pic1.png" alt="Battery Theft Prevention 1"></div>
+                    <div class="img-wrapper"><img src="pics/predictive battery theft prevention/pic2.png" alt="Battery Theft Prevention 2"></div>
+                    <div class="img-wrapper"><img src="pics/predictive battery theft prevention/pic3.png" alt="Battery Theft Prevention 3"></div>
                 </div>
                 <div class="project-outcomes">
                     <h3>Project Outcomes:</h3>
                     <div class="outcome-highlight">
-                        <p>Achieved 95% accuracy with response time under 5 seconds.</p>
+                        <p>Achieved 95% accuracy distinguishing intruders from authorised personnel with under 5-second response time. The ML classification model fuses PIR, vibration, and access pattern data; embedded firmware in C handles sensor interfacing and wireless alerting to a remote monitoring dashboard developed during vacation work at Rain South Africa.</p>
                     </div>
                 </div>
-                <a href="https://github.com/DiscipleCrownn/Telecommunications-Cabinet-Smart-Battery-Theft-Prevention-System"
-                    class="project-link" target="_blank">Documentation and code →</a>
+                <a href="https://github.com/DiscipleCrownn/Telecommunications-Cabinet-Smart-Battery-Theft-Prevention-System" class="project-link" target="_blank">Documentation and code →</a>
             </div>
         </div>
     </section>
@@ -445,8 +336,7 @@
     <!-- Services Section -->
     <section id="services">
         <h2 class="section-title">Technical Skills</h2>
-        <p class="section-subtitle">Specialized engineering services combining academic excellence with practical
-            industry experience</p>
+        <p class="section-subtitle">Specialised engineering services combining academic excellence with practical industry experience</p>
 
         <div class="services-grid">
             <div class="service-card">
@@ -466,7 +356,7 @@
                 <ul>
                     <li>Analog/Digital circuit design</li>
                     <li>Power electronics systems</li>
-                    <li>Filter design & optimization</li>
+                    <li>Filter design & optimisation</li>
                     <li>PCB layout & fabrication</li>
                 </ul>
             </div>
@@ -475,17 +365,15 @@
                 <h3>Signal Processing & Control</h3>
                 <p>Advanced signal processing and control system implementation for automation.</p>
                 <ul>
-                    <li>MATLAB/Simulink modeling</li>
+                    <li>MATLAB/Simulink modelling</li>
                     <li>Digital signal processing (DSP)</li>
                     <li>Control systems design</li>
-                    <li>Data analysis & visualization</li>
+                    <li>Data analysis & visualisation</li>
                 </ul>
             </div>
-
         </div>
     </section>
 
-    <!-- About Section -->
     <!-- About Section -->
     <section id="about">
         <h2 class="section-title">About Me</h2>
@@ -494,9 +382,7 @@
         <div class="about-content">
             <div>
                 <div class="about-text">
-                    <p>I'm an Electrical Engineering graduate from the University of the Witwatersrand, currently
-                        pursuing my MSc in Embedded Systems Engineering. My journey in engineering has been driven by a
-                        passion for creating intelligent systems that solve real-world problems.</p>
+                    <p>I'm an Electrical Engineering graduate from the University of the Witwatersrand, currently pursuing my MSc in Embedded Systems Engineering. My journey in engineering has been driven by a passion for creating intelligent systems that solve real-world problems.</p>
                 </div>
 
                 <div class="skills-section">
@@ -547,17 +433,26 @@
                 <div class="timeline">
                     <div class="timeline-item">
                         <h4>MSc Embedded Systems Engineering</h4>
-                        <div class="timeline-date">Jan 2026 - Present</div>
-                        <p>University of the Witwatersrand<br>Advanced study in embedded systems design and intelligent
-                            automation.</p>
+                        <div class="timeline-date">Jan 2026 Present</div>
+                        <p>University of the Witwatersrand<br>Dissertation: Embedded systems and web-integrated analytics pipelines for data-driven decision making.</p>
                     </div>
 
                     <div class="timeline-item">
                         <h4>BSc Electrical Engineering</h4>
-                        <div class="timeline-date">Jan 2020 - 2025</div>
-                        <p>University of the Witwatersrand<br>Specialized in High Voltage, Power Engineering, and
-                            Software
-                            Development.</p>
+                        <div class="timeline-date">Jan 2020 Nov 2025</div>
+                        <p>University of the Witwatersrand<br>Specialised in High Voltage, Power Engineering, and Software Development.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Teaching Assistant Computer Applications</h4>
+                        <div class="timeline-date">Mar 2024 – Nov 2025</div>
+                        <p>University of the Witwatersrand<br>Guided 100+ students in Python, C++, and SQL for mining automation applications.</p>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Student Engineer (Vacation Work)</h4>
+                        <div class="timeline-date">Jul 2023 – Sep 2023</div>
+                        <p>Rain South Africa<br>Built a predictive classification model (95% accuracy) for anomaly and intruder detection in operational telecoms environments.</p>
                     </div>
                 </div>
             </div>
@@ -568,23 +463,20 @@
     <footer>
         <div class="footer-content">
             <div class="social-links">
-                <a href="https://linkedin.com/in/sphamandla-radebe" target="_blank" title="LinkedIn"
-                    aria-label="LinkedIn">
+                <a href="https://linkedin.com/in/sphamandla-radebe" target="_blank" title="LinkedIn" aria-label="LinkedIn">
                     <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a href="https://github.com/DiscipleCrownn" target="_blank" title="GitHub" aria-label="GitHub">
                     <i class="fab fa-github"></i>
                 </a>
-                <a href="/cdn-cgi/l/email-protection#ab999899929d9898ebd8dfdecfcec5dfd885dcc2dfd885cac885d1ca"
-                    title="Email" aria-label="Email">
+                <a href="mailto:melizweradebe@gmail.com" title="Email" aria-label="Email">
                     <i class="far fa-envelope"></i>
                 </a>
                 <a href="tel:+27782464806" title="Phone" aria-label="Phone">
                     <i class="fas fa-phone"></i>
                 </a>
             </div>
-            <p class="footer-text">© 2026 Sphamandla Radebe | BSc Electrical Engineering, MSc Embedded Systems (In
-                Progress)</p>
+            <p class="footer-text">© 2026 Sphamandla Radebe | BSc Electrical Engineering, MSc Embedded Systems (In Progress)</p>
             <p class="footer-text">University of the Witwatersrand, Johannesburg</p>
         </div>
     </footer>
